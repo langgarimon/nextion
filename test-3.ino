@@ -1,9 +1,9 @@
 /*
  Name:		test_3.ino
  Created:	4/9/2023 10:22:19 PM
- Author:	lmrso
+ Author:	Langga
 */
-#include "EasyNextionLibrary.h"  // Include EasyNextionLibrary
+#include "EasyNextionLibrary.h"  // Please download this library from https://github.com/Seithan/EasyNextionLibrary
 
 #define LED_BUILTIN 32
 
