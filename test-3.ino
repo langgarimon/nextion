@@ -22,7 +22,7 @@ void loop() {
 	if (X>100) {
 		X = 0;
 	}
-	SendValue(X);
+	SendValue(X); // "X" adalah percentage battery. Iaitu value yg akan dihantar ke TFT display. "X" adalah interger.
 	delay(1000);
 }
 
