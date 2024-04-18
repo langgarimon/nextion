@@ -38,6 +38,5 @@ void SendSOC(int Value) {             // DONT CHANGE THIS CODE
 void SendVoltage(int Value) {             // DONT CHANGE THIS CODE
 	String TextVal;
 	TextVal = "V: " + String(Value) + " V";      // DONT CHANGE THIS CODE
-	myNex.writeNum("j0.val", Value);    // DONT CHANGE THIS CODE
-	myNex.writeStr("t0.txt", TextVal);  // DONT CHANGE THIS CODE
+	myNex.writeStr("t1.txt", TextVal);  // DONT CHANGE THIS CODE
 }
